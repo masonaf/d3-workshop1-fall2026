@@ -22,6 +22,11 @@ d3.select('#demo-1')
 // TODO: change the text above to add your name
 // TODO: change the color to something else you like // keep in mind color contrast
 
+d3.select('#demo-1')
+    .style('color', 'black')
+    .style('font-size', '25px')
+    .text('Mason Fisher')
+
 
 // Create and append new elements
 d3.select('#demo-1')
@@ -30,3 +35,8 @@ d3.select('#demo-1')
     .style('background-color', 'lightgray');
 
 // TODO: append a new element with your favorite food and style it with a different background color
+
+d3.select('#demo-1')
+    .append('p')
+    .text('Pasta')
+    .style('background-color', '#9cff33');
